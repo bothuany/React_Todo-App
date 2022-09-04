@@ -13,6 +13,7 @@ import {
 
 import { useNavigate } from "react-router-dom";
 import { useToast } from "@chakra-ui/react";
+
 function LoginPage() {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
